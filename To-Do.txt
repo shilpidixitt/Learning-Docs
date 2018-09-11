@@ -1,0 +1,17 @@
+How to prepare 100 percent for devops?
+
+undestand your projects? 
+What business problem was solved after implementing devops? How it was solved?
+what problem solving youhave done with scripting?
+
+Linux Flavors: RHEL, Centos
+one cm tool
+one monitoring tool
+one cloud platform
+one infrastructure provisioning tool
+one citool
+one scripting language
+on scm tool
+containerization tool: Docker
+
+standout with docker and scripting

@@ -1,0 +1,60 @@
+while giving  your background, dnt overdo just tell them what they need.
+dont be boring
+remember to smile
+the reason they ask your background, because they want to see your presentation skills.
+
+
+can you speak smoothly?
+
+Your Background should have three sections:
+talk about current role.
+talk about previous role.
+talk about future  role and why it would be a better match for you?
+
+
+================================================================
+Jenkins Slave Addition:
+Why: to avoid master from getting overloaded in case large number of jobs.
+Generally, in aster-Slave configuration, no job is executed in master
+multiple slaves are setup, master is used to just enable communication between slaves.
+
+Manage Jenkins-> Add Node -> using ssh or java webstart Fill in thhe blanks -> and thus a slave is added
+======================================
+Things to do with Jenkins:
+Automate Jenkins Slave Provisioning
+
+Use Jobs: Pipeline : Jobs as a Code : we have agent, node as directive
+we have stages. stages are logical group of statements
+
+Dont mess with ENV Variables
+keep your pipelines small
+know that there are two pipelines: scripted and declarative. Scripted was the firtst attempt at pipelines
+Blue ocean GUI
+Pipeline: Use shared libraries
+Jenkins also has an api.go to any job and add /api , you will get the api.
+Learn about CloudBees: they adopted Jenkins, they created a certificate
+
+favorite plugins:
+job config history: brings versioning to job config history
+job dsl : allows to write jenkins jobs as code. first you need a seed job.
+Throttle concurrent builds: fine tune how you load your agents. load is distributed between agents.
+Timestamper: adds timestamp to builds
+
+====================================
+What is Groovy Sandbox Restrictions:
+it is a security feature.
+To avoid manual interventions by Administrators, most scripts will run in a Groov Sandbox by default,
+including all Pipeline ones.
+If you uncheck "Use Groovy Sandbox" then admin will have to manually approve the script executions
+==========================================
+jenkins version : 2.3 or something
+========================
+Puppet version: 
+================================
+
+git:
+fetch vs pull . Stashing.
+https://codeahoy.com/2016/04/18/10-git-pull-vs-git-fetch-(and-stashing)/
+https://codeahoy.com/2016/04/18/10-git-pull-vs-git-fetch-(and-stashing)/
+
+
